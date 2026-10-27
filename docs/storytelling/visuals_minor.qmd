@@ -38,6 +38,14 @@ Kassinn sjálfur sýnir fjórðungana, þar sem línan í miðjum kassanum tákn
 (whiskers) sýna hámarks- og lágmarksgildi, en ef það eru útlagar (e. outliers), eru þeir sýndir sem
 sérstakir punktar fyrir utan strokurnar.
 
+![Kassarit af sparneytni bíla eftir fjölda strokka](figures/boxplot_example.png)
+
+Hér er sparneytni bíla (mílur á gallon) borin saman eftir fjölda strokka. Línan í miðjum kassanum er
+miðgildið og kassinn nær frá neðri til efri fjórðungs. Strokurnar sýna dreifinguna fyrir utan
+kassann og punktarnir eru útlagar. Sjá má að bílar með fleiri strokka eyða almennt meira, og að
+dreifingin er breiðari hjá 4 strokka bílunum.
+
+
 ##### Hvenær á að nota kassarit?
 
 Kassarit eru gagnleg þegar þú vilt bera saman dreifingu margra gagnasafna hlið við hlið, t.d.
@@ -113,6 +121,13 @@ Svæðarit eða flatarmyndrit (Area Graph) er sérstök gerð af línuriti þar 
 litað til að gefa til kynna magn eða heildarupphæð gagna yfir tíma. Þó að þetta virðist vera einföld
 sjónræn breyting, þá hefur hún mikil áhrif á hvernig við skynjum gögnin.
 
+![Svæðarit af fjölda atvinnulausra í Bandaríkjunum](figures/areagraph_example.png)
+
+Hér er fjöldi atvinnulausra í Bandaríkjunum sýndur yfir tíma. Svæðið undir línunni er litað og
+dregur því fram heildarmagnið, til dæmis hversu mikið atvinnuleysi jókst eftir 2008. Skalinn byrjar
+á núlli, sem er mikilvægt þegar svæðarit eru notuð.
+
+
 ##### Kostir
 
 - Svæðarit geta verið árangursrík til að sýna hækkun og lækkun á ýmsum gagnaröðum yfir tíma.
@@ -153,6 +168,13 @@ táknuð með:
 3) Stærð kúlu
 
 Í sumum tilvikum getur litur kúlunnar eða hreyfing í hreyfimynd táknað fleiri víddir.
+
+![Kúlurit af þyngd, sparneytni og afli bíla](figures/bubblechart_example.png)
+
+Hér sýnir kúlurit þrjár breytur um bíla: þyngd (x-ás), sparneytni (y-ás) og hestöfl (stærð kúlu).
+Þyngri bílar eyða meiru og hafa oftast fleiri hestöfl. Þrjár breytur eru þó nokkurn veginn það
+mesta sem lesandinn ræður við í einu.
+
 
 ##### Kostir
 
@@ -210,6 +232,13 @@ punktariti, en helstu gerðirnar eru:
 3. **Tengt punktarit:** Notað til að bera saman tvær (eða fleiri) raðir af gögnum þar sem tenging
    milli
    punkta leggur áherslu á muninn eða breytingu.
+
+![Cleveland punktarit af sparneytnustu bílunum](figures/dotplot_example.png)
+
+Þetta er Cleveland punktarit sem sýnir 12 sparneytnustu bílana. Hver punktur er eitt gildi og
+bílarnir eru raðaðir eftir því, sem gerir samanburðinn auðveldan. Punktarit er góður valkostur við
+súlurit þegar flokkarnir eru margir.
+
 
 ##### Kostir:
 
@@ -334,6 +363,12 @@ Rúðurit (square area chart) eða jafnvel kallað vöfflurit (waffle chart), er
 sem gögn eru sett fram sem reglulegt 10x10 net, eða möskvi, með 100 stökum einingum.
 Hver eining er lituð í samræmi við gögnin sem á að sýna. Þetta rit er oft notað til að sýna hlutföll
 innan heildar, þar sem hver eining táknar ákveðið hlutfall.
+
+![Rúðurit af hlutfalli bíla eftir fjölda strokka](figures/waffle_example.png)
+
+Hér er hlutfall bíla eftir fjölda strokka sýnt í 10x10 neti. Hver rúða er um 1% af heildinni, svo
+auðvelt er að telja og bera saman hlutföllin, til dæmis að bílar með 4 strokka eru um þriðjungur.
+
 
 ##### Kostir
 
